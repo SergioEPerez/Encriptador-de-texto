@@ -49,8 +49,7 @@ main{
     position: absolute;
     width: 680px;
     height: 67px;
-    margin: 2%  0 0 0;
- 
+    margin: 2%  0 0 0; 
 }
 
 .button1{
@@ -79,6 +78,7 @@ main{
     /* Dark blue/dark-blue-300 */
     background: #0A3871;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 .button2{
@@ -110,6 +110,8 @@ main{
     border: 1px solid #0A3871;
     box-sizing: border-box;
     border-radius: 24px;
+    cursor: pointer;
+
 
     /* Inside auto layout */
     flex: none;
@@ -234,6 +236,8 @@ main{
     /* Dark blue/dark-blue-300 */
     background: #0A3871;
     border-radius: 24px;
+    cursor: pointer;
+
 }
 
 .limpiar{
@@ -256,6 +260,8 @@ main{
     /* Dark blue/dark-blue-300 */
     background: #0A3871;
     border-radius: 24px;
+    cursor: pointer;
+
 
 }
 

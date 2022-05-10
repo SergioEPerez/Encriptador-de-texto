@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <title>Encriptador de texto</title>
+</head>
+<body class="body">
+    <img class="logo" src="Vector.png" alt="logo">
+
+        <main>
+     
+            <div class="flex1">
+
+                <div class="cuadroDeTexto">
+
+                    <textarea class="textodesencriptado" placeholder="Ingrese el texto aquí"></textarea>
+
+                </div>
+
+                <div class="reseña">
+
+                    <img src="!.png" alt="" ><lavel class="frame3">Solo letras minusculas y sin acentos</lavel>
+
+                </div>
+
+                <div class="framebuttons">
+
+                    <button class="button1" type="button" onclick="encriptar()">Encriptar</button>
+
+                    <button class="button2" onclick="desencriptar()">Desencriptar</button>
+
+                </div>
+            
+            </div>
+
+            
+                <div class="flex2">
+
+                        <div class="textoencriptado">
+                                    
+                            <div class="muñeco">
+
+                                <img  src="Muñeco.png" alt="muñeco">
+
+                            </div>
+
+                            <div class="error">
+
+                                    <h1 class="mjeNoEncontrado">Ningún mensaje fue <br> encontrado.</h1>
+                                    <p class="txtDesencriptar">Ingresa el texto que desees encriptar o <br> desencriptar.</p>     
+
+                            </div>  
+
+                        </div>
+
+                    <button class="botoncopiar" type="button" value="copiar" onclick="copy()" >Copiar</button>
+
+                    <button class="limpiar" onclick="location.reload()">Limpiar</button>
+
+
+                </div>
+         
+
+    
+
+        </main>
+        <br>
+        <br>
+        
+        <footer>
+            <p>© Produced By Exequiel Perez Labougle</p>
+        </footer>
+
+
+        <script src="archivo.js"></script>
+</body>
+
+
+</html>

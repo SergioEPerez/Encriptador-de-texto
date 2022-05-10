@@ -41,7 +41,7 @@ color: #0A3871;
     position: absolute;
     width: 400px;
     height: 944px;
-    left: 1000px;
+    left: 940px;
     top: 40px;
     display: flex;
     justify-content: center;
@@ -257,7 +257,7 @@ color: #0A3871;
     width: 328px;
     height: 67px;
     top: 800px;
-    left: 1030px;
+    left: 980px;
 
 
     /* Dark blue/dark-blue-300 */
@@ -270,7 +270,6 @@ footer{
     background-color: #0A3871;
     position: absolute;
     bottom: 0;
-    height: 100px;
     height: 100px;
     width: 100%;
     color: white;
